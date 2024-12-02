@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
+import { MigratorModule } from './migrator/migrator.module';
 
 @Module({
-  imports: []
+  imports: [MigratorModule]
 })
 export class AppModule {}
